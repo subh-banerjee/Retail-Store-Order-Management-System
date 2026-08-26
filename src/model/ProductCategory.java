@@ -1,0 +1,2 @@
+package model;
+public enum ProductCategory{ELECTRONICS,GROCERY,CLOTHING,HOME_APPLIANCE,STATIONERY}
