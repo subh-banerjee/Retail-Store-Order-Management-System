@@ -28,4 +28,4 @@ A console-based retail and order management application built entirely in Java. 
 3. Compile and run the `Main.java` file located in the `src` folder.
 4. Follow the interactive console menu (options 1-7) to navigate the system.
 
-**Author:** Arnav Banerjee
+**Author:** Subh Banerjee
