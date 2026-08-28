@@ -1,4 +1,5 @@
 package model;
+import exception.*;
 public class Product{
     public int i;
     public String n;
@@ -15,7 +16,8 @@ public class Product{
     public boolean isAvail(int q){
         return s>=q;
     }
-    public void updStk(int q){
+    public void updStk(int q)throws InsufficientStockException{
+        if(s<q)throw new InsufficientStockException("LowStk");
         s-=q;
     }
 }
